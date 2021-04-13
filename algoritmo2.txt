@@ -1,0 +1,17 @@
+Algoritmo “Média”
+Var
+N1, N2, N3, N4, media: real
+
+Inicio 
+escreval ("Insira o primeiro valor: ")
+leia (N1)
+escreval ("Insira o segundo valor: ")
+leia (N2)
+escreval ("Insira o terceiro valor: ")
+leia (N3)
+escreval ("Insira o quarto valor: ")
+leia (N4)
+media <- (N1+N2+N3+N4)/4
+escreval ("A média é:", media)
+
+Fimalgoritmo
