@@ -1,0 +1,15 @@
+Algoritmo “PositivoouNegativo”
+            Var
+num: real
+
+Inicio
+   escreva ("Entre com o valor: ")
+   leia (num)
+   
+   se (num >0) entao
+       escreval ("O número é positivo")
+   senao
+       escreval ("O número é negativo")
+   fimse
+
+Fimalgoritmo
