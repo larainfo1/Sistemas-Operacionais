@@ -1,0 +1,17 @@
+Algoritmo “Salário”
+            Var
+salario, ajustemaior, ajustemenor: real
+
+Inicio
+    escreva ("Insira o salário sem ajuste: ")
+   leia (salario)
+   
+   se (salario <=1100) entao
+       ajustemaior <- salario* 1.13
+       escreval ("O salário com ajuste é: ", ajustemaior)
+   senao
+       ajustemenor <- salario* 1.07
+       escreval ("O salário com ajuste é: ", ajustemenor)
+   fimse
+
+Fimalgoritmo
